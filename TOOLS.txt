@@ -1,0 +1,113 @@
+LOCAL AI WALLPAPER & PHOTO WORKFLOW
+Tools Reference
+
+------------------------------------------------------------
+PHILOSOPHY
+------------------------------------------------------------
+
+This workflow is tool-agnostic by design. The principles work with any
+local, offline software. The tools below are what I personally use — you
+can swap them anytime without rewriting the workflow.
+
+
+------------------------------------------------------------
+PRIMARY TOOLS (WHAT I USE)
+------------------------------------------------------------
+
+LOCAL IMAGE GENERATOR — DiffusionBee
+  Type:     Local diffusion generator
+  Cost:     Free
+  Privacy:  Fully offline — nothing leaves your machine
+  Why:      Easy to download, easy to use, no cloud dependency
+
+  Default model: Stable Diffusion (varies by version — SD 1.5, SD 2.1, or SDXL)
+
+  My settings:
+    • Advanced Options: ON
+    • Resolution: 1024 × 1024
+    • Images per batch: 4
+    • Seed: -1 (random)
+    • Sampling steps: 25
+    • Save method: right-click → Save (manual)
+
+LOCAL UPSCALER — Upscayl
+  Type:     Offline image upscaler
+  Cost:     Free, open-source
+  Privacy:  Fully offline — no cloud uploads
+  Why:      Clean results, simple UI, High Fidelity model works great on abstract art
+
+  My settings:
+    • Model: High Fidelity (ESRGAN-based)
+    • Scale: 4×
+    • Output: set folder manually each session
+    • Target: 4096 × 4096 (true 4K from 1024 × 1024 base)
+
+
+------------------------------------------------------------
+ALTERNATIVE LOCAL TOOLS (GENERIC)
+------------------------------------------------------------
+
+Local Image Generators:
+  Any diffusion tool that runs fully offline, such as:
+    • DiffusionBee
+    • NMKD Stable Diffusion GUI
+    • InvokeAI
+
+Local Upscalers:
+  Any offline upscaling tool, such as:
+    • Upscayl
+    • chaiNNer
+    • ESRGAN forks
+
+
+------------------------------------------------------------
+OPTIONAL SUPPORT TOOLS
+------------------------------------------------------------
+
+Cropping / Resizing:
+  macOS Preview, or any offline image editor
+
+Color Grading:
+  Usually none — but optional tools include Photopea (offline mode) or GIMP
+
+File Renaming:
+  Finder batch rename (macOS) or your OS file manager
+
+Compression:
+  ImageOptim or Squoosh (offline mode)
+  Use for social media copies — avoid over-compressing pastel gradients
+
+
+------------------------------------------------------------
+RESOLUTION PIPELINE
+------------------------------------------------------------
+
+  Step 1 — Generate:   1024 × 1024   (DiffusionBee)
+  Step 2 — Upscale:    4×            (Upscayl)
+  Step 3 — Final:      4096 × 4096   (EXPORTS/)
+
+  Social media copy:   2048 × 2048 or platform-specific (see WORKFLOW.txt)
+
+
+------------------------------------------------------------
+SYSTEM REQUIREMENTS (GENERAL)
+------------------------------------------------------------
+
+  • Modern CPU/GPU with enough VRAM for local diffusion
+  • Enough free disk space for batches and 4K exports
+  • Close memory-heavy apps (Chrome, Discord) before large runs
+  • See TROUBLESHOOTING.txt for VRAM errors and performance fixes
+
+
+------------------------------------------------------------
+TOOL SWAP GUIDE
+------------------------------------------------------------
+
+If you replace DiffusionBee or Upscayl with another local tool:
+
+  1. Match the base resolution (1024 × 1024 generation)
+  2. Match the upscale factor (4× to reach 4096 × 4096)
+  3. Keep the same prompt structure (positive + negative)
+  4. Keep the same review process (zoom, slider, multi-device test)
+
+The workflow stays the same. Only the app names change.

@@ -1,0 +1,66 @@
+LOCAL AI WALLPAPER & PHOTO WORKFLOW
+Credits & Attribution
+
+------------------------------------------------------------
+TOOLS USED (NOT INCLUDED IN THIS PACK)
+------------------------------------------------------------
+
+This pack documents a workflow. The software below is free, third-party,
+and must be downloaded separately by the user. Nothing in this pack
+implies endorsement, affiliation, or partnership with any tool or project.
+
+
+LOCAL DIFFUSION GENERATOR
+  Tool:    DiffusionBee
+  Type:    Local, offline Stable Diffusion app
+  Use:     Image generation at 1024 × 1024
+  Note:    I personally used DiffusionBee to create the wallpapers in
+           this pack. Users may substitute any local diffusion tool.
+
+LOCAL UPSCALER
+  Tool:    Upscayl
+  Type:    Open-source, offline image upscaler
+  Use:     4× upscale to 4096 × 4096
+  Note:    I personally used Upscayl with the High Fidelity model.
+           Users may substitute any local upscaling tool.
+
+OPTIONAL SUPPORT TOOLS (REFERENCED, NOT INCLUDED)
+  • ImageOptim — local image compression
+  • Squoosh (offline mode) — local image compression
+  • macOS Preview — cropping and resizing
+  • GIMP / Photopea (offline mode) — optional color grading
+
+
+------------------------------------------------------------
+MODELS REFERENCED
+------------------------------------------------------------
+
+  • Stable Diffusion (default model bundled with DiffusionBee — version
+    varies: SD 1.5, SD 2.1, or SDXL depending on app version)
+  • High Fidelity / ESRGAN-based model (bundled with Upscayl)
+
+
+------------------------------------------------------------
+ATTRIBUTION STATEMENT
+------------------------------------------------------------
+
+All trademarks belong to their respective owners.
+
+This product is not affiliated with or endorsed by any external tools or
+projects mentioned in this pack.
+
+Tools are listed for transparency only. Users may use any preferred local
+software that supports the same workflow principles.
+
+
+------------------------------------------------------------
+ABOUT THIS PACK
+------------------------------------------------------------
+
+Created as part of a sovereign, local-first creative studio workflow.
+
+All wallpapers in this pack were generated and upscaled entirely on local
+hardware. No cloud services were used in the creation process.
+
+For questions about tool licenses, refer to each project's official
+documentation and license terms.

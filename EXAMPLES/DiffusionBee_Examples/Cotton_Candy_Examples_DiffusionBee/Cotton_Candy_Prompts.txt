@@ -1,0 +1,10 @@
+THEME: Cotton Candy Swirl
+TOOL: DiffusionBee
+RESOLUTION: 1024 × 1024
+IMAGES GENERATED: 4
+
+POSITIVE PROMPT:
+Abstract fluid art, ethereal swirls of cotton candy pink, dreamlike baby blue, and soft lavender, hyper-detailed silky textures, glowing ambient lighting, dreamcore aesthetic, volumetric vapor, octane render, 8k resolution, cinematic composition, soft bokeh background, flowing organic shapes.
+
+NEGATIVE PROMPT:
+sharp edges, geometric shapes, text, watermark, signature, messy, noisy, dark colors, gritty, low resolution, distorted, grainy, pixelated, photographic realism, blocky

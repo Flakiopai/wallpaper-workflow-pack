@@ -1,0 +1,11 @@
+THEME: Cyber Ribbons
+TOOL: DiffusionBee
+RESOLUTION: 1024 × 1024
+IMAGES GENERATED: 4
+
+POSITIVE PROMPT:
+Futuristic abstract art, flowing neon cyber ribbons twisting through dark space, smooth reflective surfaces, electric blue and magenta light trails, soft volumetric glow, high‑contrast digital aesthetic, silky curvature, ultra‑clean edges, 8k resolution, octane render style, cinematic lighting, dynamic motion energy, elegant sweeping arcs, deep black background.
+
+
+NEGATIVE PROMPT:
+text, watermark, signature, faces, characters, objects, clutter, messy composition, jagged edges, grainy, noisy, low resolution, pixelated, distorted shapes, chaotic patterns, harsh shadows, muddy colors, photographic realism, glitch artifacts, blocky, geometric hard shapes.

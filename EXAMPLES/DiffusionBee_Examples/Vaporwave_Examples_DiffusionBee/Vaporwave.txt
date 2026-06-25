@@ -1,0 +1,13 @@
+THEME: Vaporwave
+TOOL: DiffusionBee
+RESOLUTION: 1024 × 1024
+IMAGES GENERATED: 4
+
+POSITIVE PROMPT:
+vaporwave neon abstract atmosphere, soft glowing gradients, electric pink and cyan haze, retro‑future color diffusion, dreamy synthwave ambience, smooth chromatic bloom, abstract light fields with no objects, premium vaporwave aesthetic, subtle holographic glow, flowing neon ambience, high‑end retro art vibe, pure atmospheric abstraction without scenes or symbols.
+
+
+NEGATIVE PROMPT:
+palm trees, sunsets, sun, horizon lines, grids, wireframes, buildings, cityscapes, cars, characters, faces, anime, silhouettes, text, letters, numbers, logos, symbols, UI elements, HUD elements, objects, patterns, circuitry, noise, grain, banding, artifacts, vignetting, harsh contrast, realistic lighting, landscapes, scenery.
+
+

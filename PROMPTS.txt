@@ -1,0 +1,171 @@
+LOCAL AI WALLPAPER & PHOTO WORKFLOW
+Prompt Library
+
+------------------------------------------------------------
+HOW I USE PROMPTS
+------------------------------------------------------------
+
+Every generation uses two fields:
+
+  Positive prompt  →  what you want
+  Negative prompt  →  what you don't want
+
+Keep prompts consistent across a batch. If pastel tones don't land, get more
+literal with your color language — DiffusionBee responds better to specific
+palette words than vague poetic ones.
+
+
+------------------------------------------------------------
+MY BASE PROMPT
+------------------------------------------------------------
+
+High-resolution abstract wallpaper with smooth gradients, clean lighting,
+soft texture detail, and a modern aesthetic. Balanced composition, no text,
+no logos, no artifacts. Crisp edges, subtle depth, and visually pleasing
+color harmony.
+
+
+------------------------------------------------------------
+MY SIGNATURE LOOK
+------------------------------------------------------------
+
+Soft, dreamy, abstract gradients with a clean modern finish — visually
+smooth, high-contrast where needed, and always wallpaper-ready with no
+distractions. A mix of pastel neon and matte minimalism that feels premium
+and intentional.
+
+
+------------------------------------------------------------
+FULL EXAMPLE — POSITIVE
+------------------------------------------------------------
+
+Abstract fluid art, ethereal swirls of cotton candy pink, dreamlike baby
+blue, and soft lavender, hyper-detailed silky textures, glowing ambient
+lighting, dreamcore aesthetic, volumetric vapor, octane render, 8k
+resolution, cinematic composition, soft bokeh background, flowing organic
+shapes.
+
+
+------------------------------------------------------------
+FULL EXAMPLE — NEGATIVE
+------------------------------------------------------------
+
+sharp edges, geometric shapes, text, watermark, signature, messy, noisy,
+dark colors, gritty, low resolution, distorted, grainy, pixelated,
+photographic realism, blocky
+
+
+------------------------------------------------------------
+THEMED VARIATIONS
+------------------------------------------------------------
+
+Cotton Candy Swirl:
+  cotton candy abstract swirl, soft neon pastels, glossy highlights,
+  high-resolution, smooth gradients, clean lighting, wallpaper-ready
+
+Matte Black Minimal:
+  matte black geometric shapes with subtle rim-light, soft lighting,
+  high-contrast, clean composition, modern aesthetic, wallpaper-ready
+
+Vaporwave Atmosphere:
+  vaporwave gradient clouds with dreamy lighting, soft neon pastels,
+  smooth gradients, subtle depth, balanced composition, wallpaper-ready
+
+Minimal Color Fields:
+  minimalist color fields with soft diffusion and gentle noise texture,
+  clean lighting, crisp edges, modern aesthetic, wallpaper-ready
+
+Cyber Ribbons:
+  cyber-aesthetic neon ribbons with reflective surfaces, subtle glow,
+  high-resolution, smooth gradients, balanced composition, wallpaper-ready
+
+
+------------------------------------------------------------
+WORDS I ALWAYS INCLUDE
+------------------------------------------------------------
+
+high-resolution
+smooth gradients
+clean lighting
+subtle depth
+soft texture
+modern aesthetic
+balanced composition
+crisp edges
+wallpaper-ready
+
+
+------------------------------------------------------------
+WORDS I AVOID
+------------------------------------------------------------
+
+text
+watermark
+signature
+faces
+people
+clutter
+busy patterns
+chaotic noise
+harsh grain
+distortion
+artifacts
+
+
+------------------------------------------------------------
+THEMES I WORK IN
+------------------------------------------------------------
+
+  • Abstract color blends
+  • Neon pastels
+  • Matte black minimalism
+  • Vaporwave atmospheres
+  • Geometric shapes
+  • Soft dreamlike gradients
+  • Cyber-ribbons
+  • Glossy organic forms
+
+
+------------------------------------------------------------
+PROMPT TIPS FROM EXPERIENCE
+------------------------------------------------------------
+
+Pastel gradients:
+  Use less contrast in the prompt or colors blow out. Be literal with
+  palette names (cotton candy pink, baby blue, soft lavender).
+
+Matte black themes:
+  Always include "soft lighting" or results turn into pure black blobs.
+
+Neon themes:
+  Add "subtle glow" or highlights get too bright and clip.
+
+Shorter prompts:
+  Sometimes work better than long poetic ones. If output drifts, simplify.
+
+Hallucination control:
+  Add "no extra elements" or "no new objects." Make the prompt more literal
+  and reduce creative modifiers.
+
+Color fixes:
+  Add "high color depth" or "rich gradients." Specify the palette directly.
+
+
+------------------------------------------------------------
+QUICK INSERT SNIPPETS
+------------------------------------------------------------
+
+High contrast:
+  cinematic contrast, deep blacks, crisp highlights
+
+Soft aesthetic:
+  matte finish, soft lighting, pastel tones
+
+Tech / cyber:
+  neon accents, reflective surfaces, futuristic palette
+
+Minimalist:
+  clean lines, negative space, monochrome palette
+
+Clean composition:
+  balanced composition, no extra elements, clean lighting

@@ -1,0 +1,13 @@
+THEME: Matte Black
+TOOL: DiffusionBee
+RESOLUTION: 1024 × 1024
+IMAGES GENERATED: 4
+
+POSITIVE PROMPT:
+Minimalist abstract art, deep matte‑black surfaces with subtle texture, soft diffused lighting, smooth geometric curves, premium tech aesthetic, ultra‑clean composition, faint rim‑light highlights, subtle depth gradients, high‑contrast shadows, 8k resolution, cinematic lighting, modern industrial design, elegant simplicity, refined micro‑detail, dark monochrome palette.
+
+
+
+NEGATIVE PROMPT:
+text, watermark, signature, faces, characters, objects, clutter, bright colors, neon, glossy reflections, noisy texture, grain, low resolution, pixelation, chaotic shapes, harsh lighting, overexposed highlights, busy patterns, photographic realism, glitch artifacts, distorted forms.
+

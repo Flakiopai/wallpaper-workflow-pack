@@ -1,0 +1,203 @@
+LOCAL AI WALLPAPER & PHOTO WORKFLOW
+Step-by-Step Guide
+
+------------------------------------------------------------
+OVERVIEW
+------------------------------------------------------------
+
+This is the full workflow I use to generate, upscale, and ship wallpaper-ready
+images — entirely on my machine. No cloud. No uploads. No subscriptions.
+
+The pipeline is simple:
+
+  Generate → Upscale → Review → Export → Use
+
+Everything below reflects what I actually do, not theory.
+
+
+------------------------------------------------------------
+STEP 01 — SET UP YOUR WORKSPACE
+------------------------------------------------------------
+
+Before you start, confirm this pack contains:
+
+  • PROMPTS.txt
+  • TOOLS.txt
+  • SAFETY.txt
+  • TROUBLESHOOTING.txt
+  • README.txt
+  • CREDITS.txt
+  • EXAMPLES/ folder (reference images)
+  • EXPORTS/ folder (final outputs)
+
+Keep EXPORTS clean. Keep EXAMPLES separate. Know where your tools save files
+before you generate anything.
+
+
+------------------------------------------------------------
+STEP 02 — GENERATE IMAGES (DIFFUSIONBEE)
+------------------------------------------------------------
+
+Open DiffusionBee — my local diffusion generator. Free, open-source, fully
+offline.
+
+Model:
+  Use the default Stable Diffusion model included with the app. Version
+  varies by release (SD 1.5, SD 2.1, or SDXL).
+
+Settings I use:
+  • Turn on "Advanced Options"
+  • Resolution: 1024 × 1024
+  • Number of images: 4
+  • Seed: -1 (random)
+  • Sampling steps: 25 (default)
+  • Everything else: stock defaults
+
+Prompts:
+  Always use a positive prompt AND a negative prompt. See PROMPTS.txt for
+  my base prompt, variations, and full examples.
+
+Generate:
+  Run the batch. Review all four outputs. Pick the strongest candidate.
+
+Save:
+  DiffusionBee requires manual saving — right-click each image → Save.
+  Save selected images to your working folder before moving to upscale.
+
+Note:
+  DiffusionBee sometimes struggles with soft pastel prompts unless you
+  phrase them literally. If pastel tones don't come through, regenerate
+  with more specific color language.
+
+
+------------------------------------------------------------
+STEP 03 — UPSCALE TO 4K (UPSCAYL)
+------------------------------------------------------------
+
+Open Upscayl — my local upscaler. Free, open-source, no cloud dependency.
+
+Before you start:
+  Double-check your Upscayl output folder. Set it manually every session.
+
+Settings I use:
+  • Model: High Fidelity (ESRGAN-based)
+  • Scale: 4×
+  • Output folder: set to this pack's EXPORTS/ directory
+
+The math:
+  1024 × 1024 (DiffusionBee) → 4× upscale → 4096 × 4096 (true 4K)
+
+Process:
+  1. Select your chosen image
+  2. Confirm model and scale
+  3. Confirm output folder
+  4. Upscale
+  5. Use the before/after slider to compare input vs output
+
+Quality rule:
+  Original image quality matters more than the upscale. If the base image
+  is too soft or muddy, regenerate in DiffusionBee instead of forcing an
+  upscale. Pastel images upscale better than dark ones.
+
+
+------------------------------------------------------------
+STEP 04 — REVIEW AND SELECT FINALS
+------------------------------------------------------------
+
+What I look for:
+  • Pixel quality at full zoom
+  • Grain or noise when zoomed all the way in
+  • How it looks on desktop monitor vs laptop display
+  • Overall vibe — does it match the theme?
+
+What makes me reject an image:
+  • Choppy edges
+  • Grainy textures
+  • Wrong vibe or off-palette colors
+  • Weird artifacts or hallucinated details
+  • Images that looked great in DiffusionBee but fell apart after upscale
+
+My quality bar:
+  I can tell instantly by comparing input vs output. Upscayl's slider is
+  the fastest check. If it doesn't pass, it doesn't ship.
+
+
+------------------------------------------------------------
+STEP 05 — EXPORT AND ORGANIZE
+------------------------------------------------------------
+
+Where I save:
+  Final wallpapers go in this pack's EXPORTS/ folder.
+
+How I name files:
+  By style or theme (e.g., cotton_candy_swirl_01.png).
+
+How I sort:
+  By date created or by vibe/theme.
+
+Folder rules:
+  • Keep EXPORTS clean — finals only
+  • Keep EXAMPLES separate — reference and WIP only
+  • Always verify Upscayl output folder before batch runs
+
+
+------------------------------------------------------------
+STEP 06 — TEST ON REAL DEVICES
+------------------------------------------------------------
+
+Devices I test on:
+  Phone, laptop, desktop.
+
+What I check:
+  • Banding in gradients
+  • Noise in dark areas
+  • Oversharpening from the upscaler
+  • File size (especially for social media uploads)
+
+Social media sizes:
+  • Instagram: 1080 × 1350 (portrait) or 1080 × 1080 (square)
+  • Discord: keep under 8 MB unless you have Nitro
+  • Twitter/X: 2000 px max recommended
+
+Reducing file size without killing quality:
+  • Export a copy at 2048 × 2048 for social sharing
+  • Convert PNG → JPG at 90–95% quality
+  • Use a local compression tool (ImageOptim, Squoosh offline mode)
+  • Avoid over-compressing pastel gradients — causes banding
+
+Final tweaks:
+  Sometimes I export a smaller version for sharing. Otherwise, if it
+  passed review, it ships as-is.
+
+
+------------------------------------------------------------
+STEP 07 — PREPARE THE FINAL PACK
+------------------------------------------------------------
+
+What goes into the ZIP:
+  • All documentation (this file and every .txt in the pack)
+  • All wallpapers (EXPORTS/)
+  • Example images (EXAMPLES/)
+  • Everything needed to use the pack successfully
+
+Consistency rules:
+  • Keep prompts consistent across batches
+  • Phrase pastel prompts literally when DiffusionBee drifts soft
+  • Reject early — don't upscale images that already look weak
+  • Test on multiple screens before calling anything final
+
+
+------------------------------------------------------------
+QUICK REFERENCE
+------------------------------------------------------------
+
+  Generate    →  DiffusionBee  →  1024 × 1024  →  4 images
+  Upscale     →  Upscayl       →  4×           →  4096 × 4096
+  Review      →  Zoom in, compare slider, test on devices
+  Export      →  EXPORTS/ folder, named by theme
+  Share       →  Resize/compress copy for social if needed
+
+Open PROMPTS.txt for prompt language.
+Open TOOLS.txt for software details.
+Open TROUBLESHOOTING.txt when something goes wrong.
+Open SAFETY.txt for ethical and privacy guardrails.

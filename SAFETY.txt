@@ -1,0 +1,99 @@
+LOCAL AI WALLPAPER & PHOTO WORKFLOW
+Safety, Ethics & Sovereign Rules
+
+------------------------------------------------------------
+CORE PRINCIPLE
+------------------------------------------------------------
+
+Everything in this workflow runs locally, on your hardware, under your
+control. No cloud. No uploads. No telemetry. Your creative process stays
+private and sovereign.
+
+
+------------------------------------------------------------
+RESPONSIBLE IMAGE GENERATION
+------------------------------------------------------------
+
+  • Keep everything offline and local
+  • Only generate abstract or non-human content
+  • Avoid anything that could resemble real people
+  • Keep outputs clean, safe, and non-harmful
+
+
+------------------------------------------------------------
+RESPECTING CREATORS
+------------------------------------------------------------
+
+  • Do not mimic specific artists or copyrighted styles
+  • Avoid prompts referencing real brands or IP
+  • Keep everything original and abstract
+
+
+------------------------------------------------------------
+AVOIDING COPYRIGHTED CONTENT
+------------------------------------------------------------
+
+  • No characters, logos, or recognizable designs
+  • No recreations of existing artwork
+  • No references to trademarked names or franchises
+
+
+------------------------------------------------------------
+AVOIDING REAL PEOPLE
+------------------------------------------------------------
+
+  • No celebrity likenesses
+  • No real faces
+  • No "photo of a person" prompts — period
+
+
+------------------------------------------------------------
+KEEPING EVERYTHING OFFLINE
+------------------------------------------------------------
+
+  • All generation happens locally on your machine
+  • No cloud services for generation, upscaling, or storage
+  • No uploads to external servers
+  • No telemetry or tracking tools in the workflow
+
+
+------------------------------------------------------------
+PRIVACY RULES
+------------------------------------------------------------
+
+  • No personal data in prompts
+  • No identifiable features or user-specific content
+  • Everything stays on your machine
+  • No sharing of prompts or outputs to third-party services
+
+
+------------------------------------------------------------
+HARDWARE SAFETY
+------------------------------------------------------------
+
+  • Monitor system temps during long generation sessions
+  • Close unnecessary apps to free VRAM and reduce thermal load
+  • Don't run sustained heavy batches if your hardware is overheating
+  • Give your machine breaks between large upscale batches
+
+
+------------------------------------------------------------
+ETHICAL GUARDRAILS
+------------------------------------------------------------
+
+  • Keep the workflow transparent and honest
+  • Give credit to tools used without implying endorsement
+  • Encourage users to choose their own preferred local software
+  • Promote sovereign, local-first creative workflows
+  • This pack teaches principles — not brand lock-in
+
+
+------------------------------------------------------------
+WHAT THIS PACK WILL NEVER ASK YOU TO DO
+------------------------------------------------------------
+
+  • Upload images or prompts to a cloud service
+  • Generate content involving real people or likenesses
+  • Copy copyrighted characters, brands, or artist styles
+  • Share personal or identifiable information in prompts
+  • Depend on a subscription or external account to function

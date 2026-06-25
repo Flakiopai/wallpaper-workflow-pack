@@ -1,0 +1,173 @@
+LOCAL AI WALLPAPER & PHOTO WORKFLOW
+Troubleshooting Guide
+
+------------------------------------------------------------
+HOW TO USE THIS FILE
+------------------------------------------------------------
+
+Real problems I run into, and what I actually do to fix them. Start with
+the symptom that matches your issue. If nothing works, regenerate from
+scratch — a bad base image rarely improves with upscaling.
+
+
+------------------------------------------------------------
+IMAGES COME OUT TOO SOFT OR BLURRY
+------------------------------------------------------------
+
+  • Regenerate with slightly different wording
+  • Add "clean composition" or "balanced lighting" to the prompt
+  • Reduce temperature or randomness settings
+  • Switch to a simpler prompt structure
+  • Don't upscale a soft image — fix it at generation first
+
+
+------------------------------------------------------------
+COLORS LOOK WASHED OUT OR MUDDY
+------------------------------------------------------------
+
+  • Add "high color depth" or "rich gradients"
+  • Increase contrast in the prompt
+  • Regenerate with a more specific palette (pastels, neon, matte, etc.)
+  • For pastels: use less contrast or colors blow out
+  • Be literal with color names instead of vague descriptors
+
+
+------------------------------------------------------------
+WEIRD ARTIFACTS OR SHAPES APPEAR
+------------------------------------------------------------
+
+  • Regenerate — artifacts at the base stage won't upscale away
+  • Simplify the prompt (shorter often works better)
+  • Add "no extra elements" or "no new objects"
+  • Reduce creative modifiers
+  • Reject early if DiffusionBee output already looks off
+
+
+------------------------------------------------------------
+MODEL HALLUCINATES RANDOM DETAILS
+------------------------------------------------------------
+
+  • Add "no extra elements" or "no new objects"
+  • Make the prompt more literal and less poetic
+  • Reduce creative modifiers and temperature
+  • Stick to abstract language — avoid open-ended scene descriptions
+
+
+------------------------------------------------------------
+UPSCALER INTRODUCES NOISE OR OVER-SHARPENS
+------------------------------------------------------------
+
+  • Try a different upscaling mode (e.g., Standard vs Lines)
+  • Run a second pass with softer settings
+  • Export at a slightly lower resolution to avoid artifacts
+  • Check with Upscayl's before/after slider — reject if output is worse
+  • Regenerate the base image instead of forcing a bad upscale
+
+
+------------------------------------------------------------
+IMAGE LOOKED GREAT IN DIFFUSIONBEE BUT FELL APART AFTER UPSCALE
+------------------------------------------------------------
+
+  • Reject it — this is common with soft or muddy base images
+  • Regenerate with sharper prompt language
+  • Pastel images upscale better than dark ones
+  • Original quality matters more than the upscale step
+
+
+------------------------------------------------------------
+PASTEL TONES DON'T COME THROUGH
+------------------------------------------------------------
+
+  • Phrase colors literally (cotton candy pink, baby blue, soft lavender)
+  • Reduce contrast in the prompt
+  • Regenerate with more specific palette language
+  • DiffusionBee struggles with vague soft-pastel prompts — be direct
+
+
+------------------------------------------------------------
+MATTE BLACK TURNS INTO PURE BLACK BLOBS
+------------------------------------------------------------
+
+  • Add "soft lighting" or "subtle rim-light" to the prompt
+  • Avoid pure black without a light source descriptor
+  • Regenerate with lower contrast modifiers
+
+
+------------------------------------------------------------
+NEON THEMES GET TOO BRIGHT
+------------------------------------------------------------
+
+  • Add "subtle glow" instead of intense glow language
+  • Reduce brightness modifiers in the prompt
+  • Regenerate with softer highlight language
+
+
+------------------------------------------------------------
+VRAM ERRORS
+------------------------------------------------------------
+
+  • Close other apps (Chrome, Discord, etc.)
+  • Reduce batch size or base resolution
+  • Restart the generator to clear memory
+  • Switch to a lighter model if available
+  • Don't run multiple heavy tools simultaneously
+
+
+------------------------------------------------------------
+SLOW GENERATION OR PERFORMANCE ISSUES
+------------------------------------------------------------
+
+  • Close Chrome, YouTube, Discord, and other memory-heavy apps
+  • Reduce batch size (try 1–2 images instead of 4)
+  • Ensure GPU is not thermal-throttling
+  • Restart the app if memory usage has climbed over multiple sessions
+
+
+------------------------------------------------------------
+FILE SIZE TOO LARGE FOR SOCIAL MEDIA
+------------------------------------------------------------
+
+  • Export a copy at 2048 × 2048 for sharing
+  • Convert PNG → JPG at 90–95% quality
+  • Use ImageOptim or Squoosh (offline mode)
+  • Avoid over-compressing pastel gradients — causes banding
+
+
+------------------------------------------------------------
+BANDING IN GRADIENTS (AFTER EXPORT OR COMPRESSION)
+------------------------------------------------------------
+
+  • Use PNG for finals, JPG only for social copies
+  • Keep JPG quality at 90–95% — don't go lower on pastel work
+  • Test on phone and desktop — banding shows differently per screen
+  • If banding exists before compression, regenerate with smoother prompt language
+
+
+------------------------------------------------------------
+DIFFUSIONBEE WON'T SAVE AUTOMATICALLY
+------------------------------------------------------------
+
+  • This is normal — right-click each image → Save
+  • Confirm save location before starting your next batch
+  • Don't close the app until all selected images are saved
+
+
+------------------------------------------------------------
+UPSCAYL SAVED TO THE WRONG FOLDER
+------------------------------------------------------------
+
+  • Always set the output folder manually before each session
+  • Double-check the path before clicking Upscale
+  • Move misplaced files to EXPORTS/ and verify before packaging
+
+
+------------------------------------------------------------
+QUIRKS I'VE LEARNED TO WORK AROUND
+------------------------------------------------------------
+
+  • Some prompts work better when shorter
+  • Pastel gradients need less contrast or they blow out
+  • Matte black themes need "soft lighting" or they turn into blobs
+  • Neon themes need "subtle glow" or they clip too bright
+  • Testing on multiple screens matters more than people think
+  • Upscayl's High Fidelity model works best for abstract art
