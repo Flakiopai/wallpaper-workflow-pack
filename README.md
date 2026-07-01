@@ -19,7 +19,7 @@ Generate (1024²)  →  Upscale (4×)  →  Review  →  Export (4096²)  →  U
 4. Upscale your pick with **High Fidelity · 4×** to reach **4096 × 4096**
 5. Save finals to `EXPORTS/`
 
-See `WORKFLOW.txt` for the full step-by-step guide.
+See `WORKFLOW.txt` for the full step-by-step guide. **Prefer pictures?** See **Workflow Visuals** below.
 
 ---
 
@@ -62,6 +62,41 @@ wallpaper-workflow-pack/
         ├── Matte_Black_Upscayl/
         ├── Vaporwave_Upscayl/
         └── Cyber_Ribbons_Upscayl/
+```
+
+---
+
+## Workflow Visuals
+
+Read top to bottom. Diagram 1 is the generation pipeline; Diagram 2 maps every file and folder in the pack.
+
+### Wallpaper Workflow Pipeline
+
+```mermaid
+flowchart TD
+    A[Generate 1024×1024 Images<br/>DiffusionBee] --> B[Pick Best Output]
+    B --> C[Upscale 4×<br/>Upscayl High Fidelity]
+    C --> D[Review 4096×4096 Result]
+    D --> E[Export Final Wallpaper<br/>EXPORTS/ Folder]
+    E --> F[Optional: Social Resize<br/>2048×2048 JPG]
+```
+
+### Project Structure Overview
+
+```mermaid
+flowchart TD
+    A[local-ai-wallpaper-workflow-pack/] --> B[README.md]
+    A --> C[WORKFLOW.txt]
+    A --> D[PROMPTS.txt]
+    A --> E[TOOLS.txt]
+    A --> F[SAFETY.txt]
+    A --> G[TROUBLESHOOTING.txt]
+    A --> H[CREDITS.txt]
+    A --> I[EXPORTS/]
+    A --> J[EXAMPLES/]
+
+    J --> J1[DiffusionBee_Examples/<theme>/]
+    J --> J2[Upscayl_Examples/<theme>/]
 ```
 
 ---
