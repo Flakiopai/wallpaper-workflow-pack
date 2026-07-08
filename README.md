@@ -368,3 +368,4 @@ All example wallpapers were generated and upscaled entirely on local hardware.
 ## Who This Is For
 
 Creators who want wallpaper-ready abstract art, clean aesthetic assets, and a local-first workflow that respects privacy — whether you're starting out or already running a private generation pipeline.
+
